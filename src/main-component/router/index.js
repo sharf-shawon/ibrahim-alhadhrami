@@ -12,9 +12,11 @@ const AllRoute = () => {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Homepage />} />
+            {/* 
             <Route path="home" element={<Homepage />} />
             <Route path="home2" element={<HomePage2/>} />
             <Route path="home3" element={<HomePage3/>} />
+            */}
           </Routes>
         </BrowserRouter>
       
